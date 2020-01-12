@@ -17,40 +17,39 @@
     <script src="js/bootstrap.min.js"></script>
 
     <style>
-
-        .body-Ummense {
+        .body-ummense {
             background: #FFFFFF 0% 0% no-repeat padding-box;
             opacity: 1;
             height: 3235px;
         }
 
-        .navbar-Ummense-Contatos {
+        .navbar-ummense-contatos {
             top: 0px;
             left: 0px;
-            width: 1920px;
+            max-width: 1920px;
             height: 50px;
             background: #FBFCFD 0% 0% no-repeat padding-box;
             border: 1px solid #E7EAEF;
             opacity: 1;
 
-            border-bottom-style: none;
+            display: flex;
+            align-items: center;
         }
 
-        .fonte-Ummense-Contatos {
+        .fonte-ummense-contatos {
             font: Medium 16px/19px Gilroy ☞;
             letter-spacing: 0;
             color: #707070;
             opacity: 1;
         }
 
-        .navbar-Ummense-Logo {
+        .navbar-ummense-logo {
             top: 49px;
             left: 0px;
-            width: 1920px;
+            max-width: 1920px;
             height: 80px;
             background: #FBFCFD 0% 0% no-repeat padding-box;
             border: 1px solid #E7EAEF;
-            border-top-style: none;
             opacity: 1;
         }
 
@@ -58,52 +57,33 @@
 
 </head>
 
-<body class="body-Ummense">
+<body class="body-ummense">
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav>
 
-        <div class="container navbar-Ummense-Contatos">
-        <a class="nav-item fonte-Ummense-Contatos" href="#">Contato</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                            <img src="icons/linkedin.png">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                            <img src="icons/facebook.png">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                            <img src="icons/instagram.png">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                            <img src="icons/twitter.png">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                            <img src="icons/youtube.png">
-                    </a>
-                </li>
+        <div class="container justify-content-end navbar-ummense-contatos">
+        <a class="nav-item fonte-ummense-contatos" href="#">Contato</a>
 
-            </ul>
-        </div>
-        </div>
-        
+        <a class="nav-item" href="#">
+            <img src="icons/linkedin.png">
+        </a>
+        <a class="nav-item" href="#">
+            <img src="icons/facebook.png">
+        </a>
+        <a class="nav-item" href="#">
+            <img src="icons/instagram.png">
+        </a>
+        <a class="nav-item" href="#">
+            <img src="icons/twitter.png">
+        </a>
+        <a class="nav-item" href="#">
+            <img src="icons/youtube.png">
+        </a>
+
     </nav>
-    <nav class="navbar navbar-expand-lg navbar-light">
-
-        <div class="container navbar-Ummense-Logo">
+    <nav>
+        
+        <div class="container navbar-ummense-logo">
         <a class="nav-item fonte-Ummense-Logo" href="#">LOGO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -142,7 +122,6 @@
         </div>
         
     </nav>
-
 
 
 </body>

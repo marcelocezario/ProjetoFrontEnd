@@ -17,13 +17,35 @@
     <script src="js/bootstrap.min.js"></script>
 
     <style>
-        .body-ummense {
-            background: #FFFFFF 0% 0% no-repeat padding-box;
-            opacity: 1;
-            height: 3235px;
+
+    /* Importação de fonte gilroy e gilroy bold */
+        @font-face {
+		     font-family: gilroy;
+		     src: url('css/fonts/Gilroy-FREE/Gilroy-Light.ttf');
         }
 
-        .navbar-ummense-contatos {
+        .fonte-gilroy {
+            font-family: gilroy;
+            letter-spacing: 0;
+            opacity: 1;
+        }
+        
+		@font-face {
+		     font-family: gilroy-bold;
+		     src: url('css/fonts/Gilroy-FREE/Gilroy-ExtraBold.ttf');
+        }
+
+        .fonte-gilroy-bold {
+            font-family: gilroy-bold;
+            letter-spacing: 0;
+            opacity: 1;
+        }
+
+
+
+    /* Padrões navbar */
+
+        .navbar-bloco-um {
             top: 0px;
             left: 0px;
             max-width: 1920px;
@@ -34,19 +56,11 @@
 
             text-align: right;
 
-
             display: flex;
             align-items: center;
         }
 
-        .fonte-ummense-contatos {
-            font: Medium 16px/19px Gilroy ☞;
-            letter-spacing: 0;
-            color: #707070;
-            opacity: 1;
-        }
-
-        .navbar-ummense-logo {
+        .navbar-bloco-dois {
             top: 49px;
             left: 0px;
             max-width: 1920px;
@@ -59,6 +73,36 @@
             align-items: center;
         }
 
+        
+    /* Padronização body conforme protótipo */
+        .body-ummense {
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            opacity: 1;
+            height: 3235px;
+        }
+        .body-bloco-um{
+            position:absolute;
+
+            text-align: center;
+            top: 209px;
+            left: 0px;
+            max-width: 1920px;
+            height: 124px;
+            color: #404F61;
+        }
+
+    
+
+    /* Criando padrões dos tamanhos de fontes */
+        .fonte-tamanho-16 {
+            font: Medium 16px/19px;
+        }
+
+        .fonte-tamanho-36 {
+            font-size: 36px;
+        }
+
+
     </style>
 
 </head>
@@ -67,10 +111,12 @@
 
     <nav>
 
-        <div class="container navbar-ummense-contatos">
+        <div class="container navbar-bloco-um">
             <div class="container">
 
-        <a class="nav-item fonte-ummense-contatos" href="#">Contato</a>
+        <a class="nav-item fonte-gilroy fonte-tamanho-16">
+            <font color="#707070">Contato</font>
+        </a>
 
         <a class="nav-item" href="https://pt.linkedin.com/company/ummense">
             <img src="icons/linkedin.png">
@@ -94,7 +140,7 @@
     </nav>
     <nav>
         
-        <div class="container navbar-ummense-logo">
+        <div class="container navbar-bloco-dois">
             <div class="container">
         <a href="https://www.ummense.com/">
             <img src="img/logo-ummense.png">
@@ -103,6 +149,14 @@
 </div>
 </nav>
 
+<div class="container body-bloco-um fonte-gilroy-bold fonte-tamanho-36">
+
+    Gestão de <font color="#8BBD4F">projetos.</font>
+    <br>
+    Simples, ágil e inteligente.
+
+
+</div>
 
 </body>
 

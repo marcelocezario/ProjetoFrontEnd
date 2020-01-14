@@ -166,33 +166,47 @@
         .body-bloco-oito {
 
             margin-top: 96px;
+            margin-bottom: 82px;
 
             max-width: 1920px;
             min-height: 270px;
             opacity: 1;
-            background: transparent url('img/metodologias-ageis.png') 30% 0% no-repeat padding-box;
             text-align: left;
             letter-spacing: 0;
             color: #4C6173;
             opacity: 1;
+
+            display:table;
+
+
+
+        }
+        .body-bloco-oito-imagem {
+            float: left;
+            width: 30%;
         }
 
         .body-bloco-oito-texto-um {
-
+            margin-left: 30%;
+            max-width: 70%;
         }
 
         .body-bloco-oito-texto-dois {
-
+            margin-left: 30%;
+            max-width: 70%;
         }
 
-        .body-bloco-dez {
-            left: 0px;
+        .body-bloco-nove {
+            padding-top: 90px;
+            padding-bottom: 72px;
+
+
             max-width: 1920px;
             min-height: 380px;
             background: #364E62 0% 0% no-repeat padding-box;
             opacity: 1;
             color: #FFFFFF;
-            text-align: center;
+            text-align: left;
 
         }
 
@@ -230,6 +244,10 @@
 
         .fonte-tamanho-50 {
             font-size: 50px;
+        }
+
+        .clear {
+            clear: both;
         }
     </style>
 
@@ -359,13 +377,19 @@
     </div>
 
     <div class="container body-bloco-oito">
+        <div class="container">
 
-  
+        <div class="container body-bloco-oito-imagem">
+
+            <img src="img/metodologias-ageis.png" class="img-fluid rounded mx-auto d-block">
+        </div>
+    </div>
 
         <div class="container">
             <div class="col">
                 <div class="container body-bloco-oito-texto-um fonte-gilroy fonte-tamanho-30">
-                    <p>As <b>Metodologias Ágeis</b> nunca foram tão ágeis</p>
+                    <a>As <b>Metodologias Ágeis</b>
+                        <br>nunca foram tão ágeis</a>
                 </div>
                 <div class="container body-bloco-oito-texto-dois fonte-gilroy fonte-tamanho-16">
                     <p>Se você está familiarizado com termos como Scrum, Sprint, Kanban, Product Backlog, XP, FDD e
@@ -375,11 +399,13 @@
                         para cada Story e atribua à Sprint, mantendo o projeto principal com o histórico completo e
                         Backlog.</p>
                 </div>
+                <div class="clear"></div>
+
             </div>
         </div>
 
 </div>
-    <div class="container body-bloco-dez">
+    <div class="container body-bloco-nove">
         <div class="container">
             <p class="fonte-gilroy-bold fonte-tamanho-35">
                 Seja um dos primeiros

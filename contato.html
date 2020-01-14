@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ummense - Gestão de projetos</title>
+
+
+    <!-- Bootstrap -->
+    <link href="js/bootstrap.min.js" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="jquery/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+        /* Importação de fonte gilroy e gilroy bold */
+        @font-face {
+            font-family: gilroy;
+            src: url('css/fonts/Gilroy-FREE/Gilroy-Light.ttf');
+        }
+
+        .fonte-gilroy {
+            font-family: gilroy;
+            letter-spacing: 0;
+            opacity: 1;
+        }
+
+        @font-face {
+            font-family: gilroy-bold;
+            src: url('css/fonts/Gilroy-FREE/Gilroy-ExtraBold.ttf');
+        }
+
+        .fonte-gilroy-bold {
+            font-family: gilroy-bold;
+            letter-spacing: 0;
+            opacity: 1;
+        }
+
+        .fonte-azul {
+            color: #208FCF;
+        }
+
+
+
+        /* Padrões navbar */
+
+        .navbar-bloco-um {
+            top: 0px;
+            left: 0px;
+            max-width: 1920px;
+            height: 50px;
+            background: #FBFCFD 0% 0% no-repeat padding-box;
+            border: 1px solid #E7EAEF;
+            opacity: 1;
+
+            text-align: right;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-bloco-dois {
+            left: 0px;
+            max-width: 1920px;
+            height: 80px;
+            background: #FBFCFD 0% 0% no-repeat padding-box;
+            border: 1px solid #E7EAEF;
+            opacity: 1;
+
+            display: flex;
+            align-items: center;
+        }
+
+
+        /* Padronização body conforme protótipo */
+        .body-ummense {
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        .body-bloco-um {
+            padding-top: 80px;
+
+            
+            left: 675px;
+            width: 571px;
+            height: 479px;
+            opacity: 1;
+        }
+
+        /* Padrões footer */
+
+        .footer-bloco-um {
+            padding-top: 90px;
+            padding-bottom: 72px;
+
+            max-width: 1920px;
+            min-height: 380px;
+            background: #364E62 0% 0% no-repeat padding-box;
+            opacity: 1;
+            color: #FFFFFF;
+            text-align: left;
+
+        }
+
+        .footer-bloco-um-texto {
+            max-width: 843px;
+        }
+
+        .footer-bloco-dois {
+            left: 0px;
+            max-width: 1920px;
+            min-height: 100px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            opacity: 1;
+
+            text-align: right;
+
+            display: flex;
+            align-items: center;
+        }
+
+        /* Criando padrões dos tamanhos de fontes */
+        .fonte-tamanho-16 {
+            font-size: 16px;
+        }
+
+        .fonte-tamanho-20 {
+            font-size: 20px;
+        }
+
+        .fonte-tamanho-30 {
+            font-size: 30px;
+        }
+
+        .fonte-tamanho-35 {
+            font-size: 35px;
+        }
+
+        .fonte-tamanho-50 {
+            font-size: 50px;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body class="body-ummense">
+
+    <nav>
+
+        <div class="container navbar-bloco-um">
+            <div class="container">
+
+                <a class="nav-item fonte-gilroy fonte-tamanho-16">
+                    <a style="color:#707070">Contato</a>
+                </a>
+
+                <a class="nav-item" href="https://pt.linkedin.com/company/ummense">
+                    <img src="icons/linkedin.png">
+                </a>
+                <a class="nav-item" href="https://www.facebook.com/Ummense/">
+                    <img src="icons/facebook.png">
+                </a>
+                <a class="nav-item" href="https://www.instagram.com/ummense/">
+                    <img src="icons/instagram.png">
+                </a>
+                <a class="nav-item" href="https://twitter.com/ummense">
+                    <img src="icons/twitter.png">
+                </a>
+                <a class="nav-item" href="https://www.youtube.com/channel/UCrv0eTuNTWd-77ZyEpCuQ5A/">
+                    <img src="icons/youtube.png">
+                </a>
+
+            </div>
+        </div>
+
+    </nav>
+    <nav>
+
+        <div class="container navbar-bloco-dois">
+            <div class="container">
+                <a href="https://www.ummense.com/">
+                    <img src="img/logo-ummense.png">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="container body-bloco-um fonte-gilroy fonte-tamanho-35">
+        <a>Fale <b>conosco</b></a>
+
+        <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Nome">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control" placeholder="Telefone">
+              </div>
+              <div class="form-group">
+                <textarea type="textarea" class="form-control" placeholder="Mensagem"></textarea>
+              </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+          </form>
+
+    </div>
+
+
+
+
+
+</div>
+    <div class="container footer-bloco-um">
+        <div class="container">
+            <p class="fonte-gilroy-bold fonte-tamanho-35">
+                Seja um dos primeiros
+            </p>
+            <p class="fonte-gilroy fonte-tamanho-16 footer-bloco-um-texto">
+                A plataforma Ummense está em fase de testes e em algumas semanas você poderá aproveitar os benefícios da
+                Ummense para impulsionar sua organização! Deixe aqui seu e-mail para avisarmos você.
+            </p>
+
+
+            <form>
+                <div class="form-row">
+                    <div class="col-3">
+                    <label">testes</label>
+                </div>
+                <div class="col-3">
+                    <label">E-mail</label>
+                </div>
+
+                </div>
+
+
+                <div class="form-row">
+                    <div class="col-3">
+                            <input type="text" class="form-control" placeholder="Seu primeiro nome">
+                    </div>
+                    <div class="col-3">
+                            <input type="email" class="form-control" placeholder="Insira seu melhor e-mail">
+                    </div>
+                    <div class="col-3">
+                        <button type="submit" class="btn btn-success">Quero ser avisado</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <nav>
+
+        <div class="container">
+            <div class="footer-bloco-dois">
+                <div class="container row">
+                    <div class="col" style="text-align:left">
+                        <a class="fonte-gilroy fonte-tamanho-16">Uma empresa do grupo</a>
+                        <img src="icons/logo-scopo.png">
+                    </div>
+                    <div class="col">
+                        <div class="container">
+                            <a class="nav-item" href="https://pt.linkedin.com/company/ummense">
+                                <img src="icons/linkedin.png">
+                            </a>
+                            <a class="nav-item" href="https://www.facebook.com/Ummense/">
+                                <img src="icons/facebook.png">
+                            </a>
+                            <a class="nav-item" href="https://www.instagram.com/ummense/">
+                                <img src="icons/instagram.png">
+                            </a>
+                            <a class="nav-item" href="https://twitter.com/ummense">
+                                <img src="icons/twitter.png">
+                            </a>
+                            <a class="nav-item" href="https://www.youtube.com/channel/UCrv0eTuNTWd-77ZyEpCuQ5A/">
+                                <img src="icons/youtube.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+</body>
+
+</html>
